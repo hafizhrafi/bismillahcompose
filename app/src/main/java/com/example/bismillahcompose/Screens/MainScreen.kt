@@ -47,7 +47,7 @@ fun MainScreen(
             {
                 Text(text = "Profile")
                 Spacer(modifier = Modifier.width(8.dp))
-                Icon(imageVector = Icons.Filled.Person, contentDescription ="" )
+                Icon(imageVector = Icons.Filled.Person, contentDescription ="about_page" )
             }
 
         }

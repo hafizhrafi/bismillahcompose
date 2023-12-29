@@ -27,13 +27,13 @@ fun ProfileScreen (navController: NavController) {
                 .weight(1f)
                 .background(
                     Brush.verticalGradient(
-                        listOf(Color(0xFF000000), Color(0xFF313131)),
+                        listOf(Color(0xFFC1A4DA), Color(0xFF313131)),
                     )
                 )
                 .padding(20.dp)
         ) {
             item {
-                Image(painter = painterResource(id = R.drawable.aku),contentDescription = null)
+                Image(painter = painterResource(id = R.drawable.aku),contentDescription = "about_page")
             }
 
             item {
